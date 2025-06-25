@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    font-weight: 500;
+}
+
+/* header */
+
+#edit-container {
+    width: 1440px;
+    height: 718px;
+    position: relative;
+}
+#edit-container #header {
+    width: 100%;
+    height: 48px;
+    position: sticky;
+    position: relative;
+}
+#header img{
+    width: 80px;
+    height: 16.35px;
+    top: 17.61px;
+    left: 16px;
+    position: absolute;
+}
+#edit-container #container{
+    width: 1440px;
+    height: 670px;
+    top: 48px;
+    position: absolute;
+}
+#container #your-dash{
+    width: 238px;
+    height: 291.4px;
+    top: 1px;
+    left: 1px;
+    position: absolute;
+}
+#your-dash p{
+    width: 120.65px;
+    height: 14.4px;
+    margin-top: 40px;
+    margin-left: 16px;
+    position: absolute;
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #212529BF;
+    font-weight: 500;
+}
+#your-dash nav{
+    width: 238px;
+    height: 120px;
+    top: 58.4px;
+    position: absolute;
+    padding: 16px;
+    line-height: 40px;
+}
+#your-dash ul li{
+    list-style: none;
+}
+#your-dash nav ul li a{
+    text-decoration: none;
+    color: #0D6EFD;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 21px;
+}
+hr{
+    margin-left: -16px;
+    width: calc(100% + 32px);
+    border-top: 1px solid #DEE2E6; 
+} 
+ #your-dash ul li a i {
+    margin: 14px;
+    margin-left: 0px;
+} 
+#container #user-mng{
+width: 1200px;
+height: 670px;
+left: 240px;
+position: absolute;
+}
+#user-mng p {
+    width: 1152px;
+    height: 71.4px;
+    margin-left: 24px;
+    position: absolute;
+    border-bottom: 1px solid #DEE2E6;
+    align-items: center;
+    display: flex;
+    line-height: 28.5px;
+    font-size: 24px;
+    font-weight: 500;
+}
+#user-mng p i {padding-right: 40px;}
+#user-mng .edit-user{
+    width: 852px;
+    height: 24px;
+    position: absolute;
+    top: 84px;
+    height: 24px;
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    left: 24px;
+}
+#user-mng #user{
+    width: 1096px;
+    height: 77px;
+    position: absolute;
+    top: 125px;
+    left: 52px;
+    position: relative;
+    border-bottom: none ;
+}
+#user-mng #user-code-box{
+    width: 528px;
+    height: 77px;
+}
+#user-mng #user-name-box{
+    width: 528px;
+    height: 77px;
+    left: 568px;
+    position: absolute;
+    top: 0px;
+}
+#user input{
+    width: 528px;
+    height: 44px;
+    position: absolute;
+    top: 33px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 12px 16px;
+    gap:  8px;
+    outline: none;
+}
+#user-mng label{
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+#user-mng #email-password{
+    width: 1096px;
+    height: 77px;
+    position: absolute;
+    top: 219px;
+    left: 52px;
+}
+#user-mng #email-box{
+    width: 528px;
+    height: 77px;
+}
+#user-mng #password-box{
+    width: 528px;
+    height: 77px;
+    left: 568px;
+    position: absolute;
+    top: 0px;
+}
+#email-password input{
+    width: 528px;
+    height: 44px;
+    position: absolute;
+    top: 33px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 12px 16px;
+    gap:  8px;
+    outline: none;
+}
+#user-mng #role-box{
+    width: 266px;
+    height: 77px;
+    position: absolute;
+    top: 313px;
+    left: 54px;
+}
+#role-box select{
+    width: 266px;
+    height: 44px;
+    top: 346px;
+    left: 54px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 12px 16px;
+    color: #0000009E;
+    outline: none;
+}
+#user-mng #date-box{
+    width: 266px;
+    height: 77px;
+    top: 313px;
+    left: 360px;
+    border: 1px;
+    position: absolute;
+}
+#user-mng #date-box #date  {
+    width: 266px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 12px 16px;
+    gap: 8px;
+    outline: none; 
+    color: #0000009E;
+}
+#user-mng #status-box{
+    width: 418px;
+    height: 77px;
+    top: 313px;
+    left: 666px;
+    position: absolute;
+}
+#status-box #radio label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #11151F;
+}
+#status-box #radio{
+     height: 16px;
+    width: 291px;
+    top: 45px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+#user-mng #description-box{
+    width: 1094px;
+    height: 132px;
+    top: 407px;
+    left: 54px;
+    position: absolute;
+}
+#description-box textarea{
+    width: 1094px;
+    height: 92px;
+    top: 33px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 12px 16px;
+    gap: 8px;
+    outline: none;
+}
+#user-mng #back-btn{
+    width: 78px;
+    height: 44px;
+    top: 556px;
+    left: 975px;
+    position: absolute;
+    border-radius: 8px;
+    border: 1px solid #E4E4E7;
+    padding: 13px 20px;
+    gap: 10px;
+}
+#user-mng #save-btn{
+    width: 78px;
+    height: 44px;
+    top: 556px;
+    left: 1070px;
+    position: absolute;
+    border-radius: 10px;
+    padding: 13px 20px;
+    gap: 10px;
+    color: white;
+    background-color: #007AFF;
+    border: none;
+}

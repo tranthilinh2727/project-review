@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    font-weight: 500;
+}
+#container{
+    width: 1440px;
+    height: 670px;
+    left: 1415px;
+    top: 2px;
+    border-radius: 2px;
+    gap: 100px;
+    display: flex;
+}
+#sign-up-box{
+    width: 298px;
+    height: 441.14px;
+    margin-top: 106.43px;
+    margin-left: 571px;
+    position: relative;
+}
+#rikkei-infor {
+    width: 191.04px;
+    height: 24px;
+    top: 417.14px;
+    color: #212529BF;
+    position: absolute;
+}
+#error-email{
+    position: absolute;
+    top: 138px;
+    left: 310px;
+    color: red;
+    width: 150px;
+}
+#error-username{
+    position: absolute;
+    top: 194px;
+    left: 310px;
+    color: red;
+    width: 150px;
+}
+#signup-btn{
+    background-color: #0D6EFD;
+    color: white;
+    width: 298px;
+    height: 42px;
+    top: 327.14px;
+    border-radius: 6px;
+    border: 1px solid #0D6EFD;
+    position: absolute;
+}
+#sign-up-box #signup-link{
+    width: 264.75px;
+    height: 24px;
+    display: flex;
+    top: 287.14px;
+    line-height: 24px;
+    position: absolute;
+    font-size: 16px;
+}
+#signup-link a{
+    color: #548aff;
+}
+#email{
+    width: 296px;
+    height: 56px;
+    top: 117.14px;
+    left: 1px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #DEE2E6;
+    position: absolute;
+    outline: none;
+}
+#sign-up-box #username{
+    width: 296px;
+    height: 56px;
+    top: 174.14px;
+    left: 1px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #DEE2E6;
+    position: absolute;
+    outline: none;
+}
+#sign-up-box #password{
+    width: 296px;
+    height: 56px;
+    top: 231.14px;
+    left: 1px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #DEE2E6;
+    position: absolute;
+    outline: none;
+}
+#error-password{
+    position: absolute;
+    top: 249px;
+    left: 310px;
+    color: red;
+    width: 150px;
+}
+#logo{
+    width: 150px;
+    height: 42.55px;
+    margin-left: 74px;
+}
+#sign-up-box p {
+    line-height: 33.6px;
+    font-size: 26.58px;
+    top: 66.55px;
+    position: absolute;
+}

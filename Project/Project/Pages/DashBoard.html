@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Tran Thi Linh TSU-PTON=JV250428 - Dash Board</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/DashBoard.css">
+</head>
+<body>
+    <div id="dash-container">
+        <header id="header">
+            <img src="/image/Trello logo full.png" alt="">
+        </header>
+        <div id="container">
+            <section id="your-dash">
+                <p>YOUR DASHBOARD</p>
+                <nav>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-list-ul"></i> User dashboard</a></li>
+                        <li><a href="/Pages/AddUser.html"><i class="fa-regular fa-star"></i> Add new user</a></li>
+                        <hr>
+                        <li><button id="signout-btn"><i class="fa-solid fa-door-closed"></i> Sign out</button></li>
+                    </ul>
+                </nav>
+            </section>
+            <main id="user-mng">
+                <p><i class="fa-solid fa-list-ul"></i>  User Management</p>
+                <div id="search-box">
+                    <input type="text" placeholder="Search user by name" >
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div id="table-box">
+                <table>
+                    <thead>
+                        <tr>
+                        <th>User code</th>
+                            <th id="username">Username </th>
+                            <th id="emailUser">Email</th>
+                            <th id="role">Role</th>
+                            <th id="bỉthday">Birthday</th>
+                            <th id="status">Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>TR001</td>
+                            <td>Leanne Graham</td>
+                            <td>Sincere@april.biz</td>
+                            <td>ADMIN</td>
+                            <td>31/01/1995</td>
+                            <td><span class="stt-active">● Active</span></td>
+                            <td>
+                                <button><i class="fa-solid fa-trash"></i></button>
+                                <button><i class="fa-solid fa-pen-to-square action-icon edit"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>TR001</td>
+                            <td>Leanne Graham</td>
+                            <td>Sincere@april.biz</td>
+                            <td>ADMIN</td>
+                            <td>31/01/1995</td>
+                            <td><span class="stt-deactivate">● Deactivate</span></td>
+                            <td>
+                                <button><img src="/image/delete icon.png" class="edit" alt=""></button>
+                                <button><img src="/image/edit icon.png" class="delete" alt=""></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                <div class="pagination">
+                    <button>&larr;</button>
+                    <button>1</button>
+                    <button>2</button>
+                    <button class="active">3</button>
+                </div>
+    </main>
+            </div>
+        </div>
+</body>
+<script src="/JS/DashBoard.js"></script>
+</html>
