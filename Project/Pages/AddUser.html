@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Tran Thi Linh TSU-PTON=JV250428 - Dash Board</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/AddUser.css">
+</head>
+<body>
+    <div id="edit-container">
+        <header id="header">
+            <img src="/image/Trello logo full.png" alt="">
+        </header>
+        <div id="container">
+            <section id="your-dash">
+                <p>YOUR DASHBOARD</p>
+                <nav>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-list-ul"></i> User dashboard</a></li>
+                        <li><a href="http://127.0.0.1:5500/Pages/DashBoard.html"><i class="fa-regular fa-star"></i> Add new user</a></li>
+                        <hr>
+                        <li><a href="/Pages/signin.html"><i class="fa-solid fa-door-closed"></i> Sign out</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <main id="user-mng">  
+                <p><i class="fa-solid fa-list-ul"></i>  User Management</p>
+                <div class="edit-user">Add New User</div>
+                <div id="user">
+                    <div id="user-code-box">
+                        <label for="user-code">User Code</label><br>
+                        <input type="text" id="user-code">
+                    </div>
+                    <div id="user-name-box">
+                        <label for="user-name">User name</label> <br>
+                        <input type="text" id="user-name">
+                    </div>
+                </div>
+                <div id="email-password">
+                    <div id="email-box">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email">
+                    </div>
+                    <div id="password-box">
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password">
+                    </div>
+                </div>
+                <div id="role-box">
+                    <label for="role">Role</label><br>
+                    <select name="" id="role">
+                        <option value="user">USER</option>
+                        <option value="admin">ADMIN</option>
+                    </select>
+                </div>
+                <div id="date-box">
+                    <label for="date">Date</label><br>
+                    <input type="date" id="date">
+                </div>
+                <div id="status-box">
+                    <label for="status">Date</label><br>
+                    <div id="radio">
+                        <label for="active"><input type="radio" id="active">Active</label>
+                        <label for="deactive"><input type="radio" id="deactive">Deactive</label>
+                    </div>
+                </div>
+                <div id="description-box">
+                    <label for="description">Lời nhắn</label>
+                    <textarea id="description" name="description" rows="4" placeholder="Nhập nội dung tại đây...">
+                    </textarea>
+                </div>
+                <button id="back-btn">Back</button>
+                <button id="add-btn">Add</button>
+            </main>
+        </div>
+    </div>
+</body>
+<script src="/JS/AddUser.js"></script>
+</html>

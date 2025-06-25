@@ -1,0 +1,10 @@
+; 1.
+; Signup - Khi nhập tên đăng nhập , thiếu @ nhưng phần thẻ small không hiện , chỉ hiện thông báo hệ thống . Nếu thiếu dấu chấm thì small vẫn hiện bình thường 
+; 2.
+; Một email đăng kí được nhiều tài khoản, cách khắc phục ?
+; 3. 
+; Signout - Gắn mỗi href ở html được không ? 
+; 4. 
+; Edit - Ở dashboarb , ấn edit , đẩy thông tin sang trang edit và nhảy qua trang edit luôn
+; 5
+; Phân trang 
